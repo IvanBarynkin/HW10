@@ -7,8 +7,8 @@ public class Main {
         String lastName = "Ivanov";
         String fullName;
 
-        fullName = String.join(" ", lastName,firstName,middleName);
-        System.out.println("Ф.И.О. сотрудника - "+fullName);
+        fullName = String.join(" ", lastName, firstName, middleName);
+        System.out.println("Ф.И.О. сотрудника - " + fullName);
         System.out.println();
 
         System.out.println("_______Задача №2_______");
@@ -18,7 +18,7 @@ public class Main {
         System.out.println("_______Задача №3_______");
 
         fullName = "Иванов Семён Семёнович";
-        fullName = fullName.replace("ё","е");
+        fullName = fullName.replace("ё", "е");
         System.out.println("Данные Ф.И.О. сотрудника для заполнения отчета - " + fullName);
     }
 }
